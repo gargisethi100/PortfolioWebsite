@@ -1,0 +1,270 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Unicorn</title>
+    <style>
+        /* CSS reset */
+        body {
+            font-family: 'Castoro', serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            /* background-size:1344px 1457px ; */
+            background-image: url('img/pexels-junior-teixeira-2047905\ \(1\).jpg');
+            background-size: contain;
+            height: 2000px;
+
+            background-repeat: no-repeat;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            /* border: 2px solid red; */
+            top: 0px;
+        }
+
+        .left div {
+            margin-top: -10px;
+            text-align: center;
+            color: #e88bab;
+        }
+
+        .left img {
+            width: 93px;
+            margin: 3px 34px
+        }
+         .mid {
+            display: block;
+            width: 5ttytya0%;
+            height: 45px;
+            margin: 8px 291px;
+            font-size: 20px;
+            /* border: 2px solid rgb(49, 138, 13); */
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 25px;
+            top: -16px;
+            display: inline-block;
+            /* border: 2px solid rgb(231, 228, 13); */
+            margin: 30px -10px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+        }
+
+        .navbar li a {
+            color: #cbb5f1;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 22px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+
+            color: rgb(240, 196, 114);
+
+        }
+
+        .bts {
+            margin: 2px 9px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 1px 8px;
+            border: 2px solid rgb(235, 161, 161);
+            border-radius: 7px;
+            cursor: pointer;
+            font-family: 'Castoro', serif;
+            font-size: 15px;
+        }
+
+        .container button {
+            color: rgb(238, 157, 157);
+            width: 176px;
+            margin: 7px 120px;
+            font-size: 19px;
+        }
+
+        .bts:hover {
+            background-color: rgb(92, 94, 91);
+
+        }
+
+        .container {
+            margin: 538px 150px;
+            padding: 6px 2px;
+            width: 84%;
+            border-radius: 30px;
+        }
+
+        .form-group input {    text-align: center;
+            color: #f57979;
+    display: block;
+    width: 404px;
+    padding: 11px 7px;
+    border: 2px solid #bd8e9c;
+    border-radius: 1px;
+    font-size: 19px;
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+    background-color: #000000;
+
+
+        }
+
+        .container h1 {
+            color: #e6ccc8;
+            margin: 2px 89px;
+        }
+
+        .form-group input:hover {
+            background-color: rgb(241, 236, 227);
+        }
+        #msg{
+            text-align: left;
+        }
+
+        .square {
+            margin: -651px 50;
+            padding: 42px 57px;
+            width: 40%;
+            border-radius: 30px;
+            width: 80%;
+        }
+
+        #msg {
+
+            padding: 48px 21px;
+
+        }
+
+        .square h2 {
+            color: aqua;
+            margin: -169px -51px;
+            font-size: 40px;
+        }
+
+        .box {    margin: -669px 570px;
+    padding: 209px 36px;
+    width: 40%;
+    border-radius: 0px;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: aqua;
+
+        }
+
+        .contact {
+            font-size: 30px;
+
+        }
+
+        .logo img {
+            width: 132px;
+    margin: -87px 299px;
+    filter: invert(100%);
+                                                                        
+            
+        }
+    </style>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/depositphotos_81794570-stock-illustration-star-magic-unicorn-logo.jpg" alt="">
+            <div>Frontend Unicorn</div>
+
+
+            <!-- Left box for logo -->
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#square">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#container"> Contact us</a></li>
+            </ul>
+
+
+            <!-- Mid box for navbar -->
+        </div>
+        <div class="right">
+        
+        </div>
+    </header>
+    <div class="container" id="container">
+        <h1>
+            CONTACT ME.
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text " name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text " name="" placeholder="Enter your Email Address">
+            </div>
+            <div class="form-group">
+                <input type="text " name="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text " name="" id="msg" placeholder="Your Message">
+            </div>
+            <button class="bts">Boom.Send It.</button>
+        </form>
+        <div class="square">
+            <h2> Hello! <br>
+                I'm Gargi,<br>
+                Front-end Developer
+
+            </h2>
+
+        </div>
+    </div>
+    <div class="box">
+        <h3>CALL US...</h3>
+        <div class="Contact">
+            412.966.9777
+        </div>
+        <h3>
+            EMAIL US...</h3>
+        <div class="contact">
+            Hello@FrontendUnicorn.com
+        </div>
+        <h3>FOLLOW US...</h3>
+        <div class="contact">
+            @FrontendUnicorn
+        </div>
+        <div class="logo">
+            <img src="img/22236.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>
